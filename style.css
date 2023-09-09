@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'popins', sans-serif; 
+}
+
+body {
+    height: 80vh;
+    background-color: greenyellow;
+}
+
+.card {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5rem;
+    
+}
+.card-body{
+    padding: 1.2rem;
+    border: 2px outset black;
+    margin: 2rem 0;
+}
+.card-body h1{
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+.card-body h4{
+    font-size: 1rem;
+}
