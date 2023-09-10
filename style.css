@@ -1,32 +1,51 @@
 *{
-    box-sizing: border-box;
-    margin: 0px;
-    font-family: 'popins', sans-serif; 
-}
-
-body {
-    height: 80vh;
-    background-color: greenyellow;
-}
-
-.card {
-    width: 80%;
+    margin: 0;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .card{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 5rem;
-    
-}
-.card-body{
-    padding: 1.2rem;
-    border: 2px outset black;
-    margin: 2rem 0;
-}
-.card-body h1{
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  
+  .post-body{
+    border: 2px outset;
+    width: 40%;
     margin: 1rem 0;
-    font-size: 1.4rem;
-}
-
-.card-body h4{
-    font-size: 1rem;
-}
+    padding: 1rem;
+  }
+  
+  button{
+    background-color: blue;
+    color: white;
+    padding: .4rem;
+    margin: .4rem;
+    border-radius: 8%;
+  }
+  
+  
+  .comment-card{
+    left:50%;
+    width: 500px;
+    padding: 1rem;
+    margin: 1rem;
+    position: absolute;
+    transform: translateX(-50%);  
+    border: 5px outset;
+    background-color: gray;
+  }
+  .comment-body{
+    font-size: .4rem;
+    color: white;
+    margin: 1rem 0;
+  }
+  
+  
+  
+  
