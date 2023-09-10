@@ -1,10 +1,9 @@
-import MUICard from "./components/MUICard";
+import MIUICard from "./components/MIUICard";
 
-function App(){
-    return(
-        <MUICard />
-    )
+export default function App() {
+  return (
+    <div className="App">
+      <MIUICard />
+    </div>
+  );
 }
-
-
-export default App
